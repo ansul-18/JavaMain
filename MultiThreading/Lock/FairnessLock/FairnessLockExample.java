@@ -35,5 +35,6 @@ public class FairnessLockExample {
         Thread1.start();
         Thread2.start();
         Thread3.start();
+
     }
 }
