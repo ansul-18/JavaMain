@@ -5,8 +5,6 @@ import java.sql.SQLOutput;
 class WashingMachine extends Thread{
     @Override
     public void run() {
-
-
             try {
                 System.out.println("Washing start.....");
                 Thread.sleep(2000);

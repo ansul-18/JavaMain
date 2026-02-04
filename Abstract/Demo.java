@@ -9,6 +9,7 @@ abstract class  car{
         System.out.println("playing music....");
     }
 }
+
 abstract class safari extends car {
 
     @Override

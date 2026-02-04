@@ -9,6 +9,6 @@ public class Main {
 
         pati.start();
         patni.start();
-        child.start();
+//        child.start();
     }
 }

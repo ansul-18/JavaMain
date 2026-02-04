@@ -9,7 +9,7 @@ public class BankAccount {
         if(amount<=bal){
             System.out.println(Thread.currentThread().getName()+" proceeding to withdraw.....");
             try {
-                Thread.sleep(10000);
+                Thread.sleep(3000);
             } catch (InterruptedException e) {
                 System.out.println("Exception occur");
             }
