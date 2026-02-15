@@ -8,6 +8,7 @@ public class nextLine {
         System.out.print("Enter name : ");
         String name = sc.next();
         System.out.println(name);
+        System.out.println("EGGR");
 
         System.out.println("Enter full name : ");
         String fullName = sc.nextLine();
