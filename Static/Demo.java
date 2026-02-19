@@ -16,7 +16,7 @@ public class Demo {
     public static void main(String[] args) {
         Mobile obj1 = new Mobile();
         obj1.brand = "Apple";
-        obj1.price = 80000;
+        obj1.price = 70000;
         Mobile.style = "smart phone";
 
         Mobile obj2 = new Mobile();

@@ -15,7 +15,7 @@ class B implements A{
     }
 
     @Override
-    public void write() {
+    public void write()  {
         System.out.println("Write....");
     }
 

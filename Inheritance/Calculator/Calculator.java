@@ -8,5 +8,8 @@ public class Calculator {
 
         int r2 = c.mul(2,4);
         System.out.println(r2);
+
+        AdvCalc cc = new AdvCalc();
+
     }
 }
