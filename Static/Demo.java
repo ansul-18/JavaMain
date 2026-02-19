@@ -21,7 +21,7 @@ public class Demo {
 
         Mobile obj2 = new Mobile();
         obj2.brand = "redmi";
-        obj2.price = 80000;
+        obj2.price = 65000;
         obj2.style = "phone";
 
         obj1.show();
