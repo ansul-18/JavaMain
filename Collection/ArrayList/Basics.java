@@ -20,6 +20,7 @@ public class Basics {
         name.remove(2);
         System.out.println(name);
 
+        System.out.println("------------");
         String[] str = {"A","B","C","D"};
         System.out.println(Arrays.toString(str));
         List<String> list = new ArrayList<>(Arrays.asList(str));
