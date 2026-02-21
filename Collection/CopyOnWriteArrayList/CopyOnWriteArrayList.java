@@ -7,7 +7,7 @@ public class CopyOnWriteArrayList {
         List<String> list = new java.util.concurrent.CopyOnWriteArrayList<>();
         list.add("Milk");
         list.add("Banana");
-        list.add("peanut");
+        list.add("Peanut");
         System.out.println("initial shoping list : "+list);
 
         for (String item : list){
