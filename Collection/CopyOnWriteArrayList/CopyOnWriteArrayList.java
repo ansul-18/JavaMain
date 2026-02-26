@@ -8,15 +8,17 @@ public class CopyOnWriteArrayList {
         list.add("Milk");
         list.add("Banana");
         list.add("Peanut");
-        System.out.println("initial shoping list : "+list);
+        list.add("Bread");
+        System.out.println("initial shopping list : "+list);
 
         for (String item : list){
             System.out.println(item);
-            if (item.equals("peanut")){
+            if (item.equals("Peanut")){
                 list.add("protein");
-                System.out.println("item added");
+                System.out.println("item added ");
             }
 
-        }System.out.println(list);
+        }
+        System.out.println(list);
     }
 }
