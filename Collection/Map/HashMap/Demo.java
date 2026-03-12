@@ -1,4 +1,4 @@
-package Collection.Map;
+package Collection.Map.HashMap;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -7,7 +7,7 @@ public class Demo {
     public static void main(String[] args) {
         Map<Integer,String> map = new HashMap<>();
         map.put(101,"Amit");
-        map.put(102,"Sumit");
+        map.put(102,"Summit");
         System.out.println(map.get(101));
 
         if (map.containsKey(101)) {
@@ -16,7 +16,7 @@ public class Demo {
             System.out.println("No");
         }
 
-        String no = map.getOrDefault(101, "NO");
+        String no = map.getOrDefault(104, "NO");
         System.out.println(no);
 
         for(Map.Entry<Integer,String> entry : map.entrySet()){
